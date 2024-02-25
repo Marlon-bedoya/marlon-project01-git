@@ -1,0 +1,29 @@
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        rgb(255, 0, 76),
+        rgb(174, 0, 255),
+        rgb(0, 145, 255)
+    ) ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0px 4px 3px rgb(126, 7, 238);
+}
+
+
+button:active{
+    transform: scale(0.9);
+}
+    
+
+
+.app__Buttom{
+    display: grid;
+    place-items: center;
+}
